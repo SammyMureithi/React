@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#email{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  border: grey solid 2px;
+  border-radius: 12px;
+  width: 60%;
+  margin-left: 80px;
+  
+  
+align-items: center;
+  
+}
+
+.App{
+  background-color: beige;
+  margin: 20px;
+  justify-self: center;
+  width: fit-content;
+  border-radius: 12px;
+  
+}
+#top img{
+  width: 400px;
+  height: 300px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+
+}
+#into{
+  background-color: rgb(221, 205, 175);
+}
+#intro h3{
+  color: coral;
+}
+#intro h4{
+  font-style: italic;
+}
+#about h1{
+  text-align: left;
+  margin-left: 10px;
+}
+#about p{
+  text-align: left;
+  margin-left: 10px;
+  color: black;
+}
+
+#foot{
+  background-color: grey;
+  display: flex;
+  border: solid black 2px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+ justify-content: center;
+}
+#foot img{
+  border-radius: 12px;
+  padding: 12px;
+}
